@@ -1,0 +1,8 @@
+/* External CSS for the .external-div class */
+.external-div {
+    border: 2px dashed blue;
+    background-color: yellow;
+    margin: 20px;
+    padding: 15px;
+    font-size: 18px;
+}

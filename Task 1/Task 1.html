@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example Page</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Internal CSS for the h1 element */
+        h1 {
+            color: blue;
+            font-size: 24px;
+        }
+
+        /* Internal CSS for the #container div */
+        #container {
+            color: black;
+            background-color: lime;
+            padding: 20px;
+            margin: 20px;
+    padding: 15px;
+    font-size: 18px;
+        }
+    </style>
+
+    <!-- External CSS (linked stylesheet) -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Inline CSS for the first div -->
+    <div style="border: 2px solid red; padding: 10px; margin: 20px;
+    font-size: 18px;" >
+        <h1 style="color: green;">Inline CSS Example</h1>
+        <p>This div uses inline CSS for styling.</p>
+    </div>
+
+    <!-- Internal CSS for the second div -->
+    <div id="container">
+        <h1>Internal CSS Example</h1>
+        <p>This div uses internal CSS for styling.</p>
+    </div>
+
+    <!-- External CSS for the third div -->
+    <div class="external-div">
+        <h1>External CSS Example</h1>
+        <p>This div uses external CSS for styling.</p>
+    </div>
+</body>
+</html>
