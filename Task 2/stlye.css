@@ -1,0 +1,26 @@
+/* Base styling for all paragraphs */
+.paragraph {
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Styling for the introductory paragraph */
+.paragraph--intro {
+    background-color: #f0f0f0;
+}
+
+/* Styling for the important paragraph */
+.paragraph--important {
+    font-weight: bold;
+    color: #e60000;
+}
+
+/* Styling for the quote paragraph */
+.paragraph--quote {
+    background-color: #f0f0f0;
+    font-style: italic;
+    border-left: 2px solid #333;
+    padding-left: 10px;
+    color: #0073e6;
+}
